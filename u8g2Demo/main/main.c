@@ -33,8 +33,6 @@
 
 static const char *TAG = "tofsense";
 
-
-
 void app_main(void)
 {
     gpio_reset_pin(14);
