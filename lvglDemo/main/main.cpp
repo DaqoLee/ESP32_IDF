@@ -32,7 +32,6 @@
 //static const char *TAG = "lvgltest";
 
 
-
 static void lv_tick_task(void *arg)
 {
     (void)arg;

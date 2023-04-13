@@ -5,15 +5,15 @@ cmake_minimum_required(VERSION 3.5)
 
 file(MAKE_DIRECTORY
   "D:/Espressif/frameworks/esp-idf-v4.4.4/components/bootloader/subproject"
-  "F:/Studio/Project/learn/ESP32/TOFSenseIDF/build/bootloader"
-  "F:/Studio/Project/learn/ESP32/TOFSenseIDF/build/bootloader-prefix"
-  "F:/Studio/Project/learn/ESP32/TOFSenseIDF/build/bootloader-prefix/tmp"
-  "F:/Studio/Project/learn/ESP32/TOFSenseIDF/build/bootloader-prefix/src/bootloader-stamp"
-  "F:/Studio/Project/learn/ESP32/TOFSenseIDF/build/bootloader-prefix/src"
-  "F:/Studio/Project/learn/ESP32/TOFSenseIDF/build/bootloader-prefix/src/bootloader-stamp"
+  "F:/Studio/Project/learn/ESP32_IDF/u8g2Demo/build/bootloader"
+  "F:/Studio/Project/learn/ESP32_IDF/u8g2Demo/build/bootloader-prefix"
+  "F:/Studio/Project/learn/ESP32_IDF/u8g2Demo/build/bootloader-prefix/tmp"
+  "F:/Studio/Project/learn/ESP32_IDF/u8g2Demo/build/bootloader-prefix/src/bootloader-stamp"
+  "F:/Studio/Project/learn/ESP32_IDF/u8g2Demo/build/bootloader-prefix/src"
+  "F:/Studio/Project/learn/ESP32_IDF/u8g2Demo/build/bootloader-prefix/src/bootloader-stamp"
 )
 
 set(configSubDirs )
 foreach(subDir IN LISTS configSubDirs)
-    file(MAKE_DIRECTORY "F:/Studio/Project/learn/ESP32/TOFSenseIDF/build/bootloader-prefix/src/bootloader-stamp/${subDir}")
+    file(MAKE_DIRECTORY "F:/Studio/Project/learn/ESP32_IDF/u8g2Demo/build/bootloader-prefix/src/bootloader-stamp/${subDir}")
 endforeach()

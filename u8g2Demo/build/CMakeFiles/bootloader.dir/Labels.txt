@@ -1,13 +1,13 @@
 # Target labels
  bootloader
 # Source files and their labels
-F:/Studio/Project/learn/ESP32/TOFSenseIDF/build/CMakeFiles/bootloader
-F:/Studio/Project/learn/ESP32/TOFSenseIDF/build/CMakeFiles/bootloader.rule
-F:/Studio/Project/learn/ESP32/TOFSenseIDF/build/CMakeFiles/bootloader-complete.rule
-F:/Studio/Project/learn/ESP32/TOFSenseIDF/build/bootloader-prefix/src/bootloader-stamp/bootloader-build.rule
-F:/Studio/Project/learn/ESP32/TOFSenseIDF/build/bootloader-prefix/src/bootloader-stamp/bootloader-configure.rule
-F:/Studio/Project/learn/ESP32/TOFSenseIDF/build/bootloader-prefix/src/bootloader-stamp/bootloader-download.rule
-F:/Studio/Project/learn/ESP32/TOFSenseIDF/build/bootloader-prefix/src/bootloader-stamp/bootloader-install.rule
-F:/Studio/Project/learn/ESP32/TOFSenseIDF/build/bootloader-prefix/src/bootloader-stamp/bootloader-mkdir.rule
-F:/Studio/Project/learn/ESP32/TOFSenseIDF/build/bootloader-prefix/src/bootloader-stamp/bootloader-patch.rule
-F:/Studio/Project/learn/ESP32/TOFSenseIDF/build/bootloader-prefix/src/bootloader-stamp/bootloader-update.rule
+F:/Studio/Project/learn/ESP32_IDF/u8g2Demo/build/CMakeFiles/bootloader
+F:/Studio/Project/learn/ESP32_IDF/u8g2Demo/build/CMakeFiles/bootloader.rule
+F:/Studio/Project/learn/ESP32_IDF/u8g2Demo/build/CMakeFiles/bootloader-complete.rule
+F:/Studio/Project/learn/ESP32_IDF/u8g2Demo/build/bootloader-prefix/src/bootloader-stamp/bootloader-build.rule
+F:/Studio/Project/learn/ESP32_IDF/u8g2Demo/build/bootloader-prefix/src/bootloader-stamp/bootloader-configure.rule
+F:/Studio/Project/learn/ESP32_IDF/u8g2Demo/build/bootloader-prefix/src/bootloader-stamp/bootloader-download.rule
+F:/Studio/Project/learn/ESP32_IDF/u8g2Demo/build/bootloader-prefix/src/bootloader-stamp/bootloader-install.rule
+F:/Studio/Project/learn/ESP32_IDF/u8g2Demo/build/bootloader-prefix/src/bootloader-stamp/bootloader-mkdir.rule
+F:/Studio/Project/learn/ESP32_IDF/u8g2Demo/build/bootloader-prefix/src/bootloader-stamp/bootloader-patch.rule
+F:/Studio/Project/learn/ESP32_IDF/u8g2Demo/build/bootloader-prefix/src/bootloader-stamp/bootloader-update.rule

@@ -1,8 +1,8 @@
 {
     "project_name":       "bootloader",
     "project_path":       "D:/Espressif/frameworks/esp-idf-v4.4.4/components/bootloader/subproject",
-    "build_dir":          "F:/Studio/Project/learn/ESP32/TOFSenseIDF/build/bootloader",
-    "config_file":        "F:/Studio/Project/learn/ESP32/TOFSenseIDF/sdkconfig",
+    "build_dir":          "F:/Studio/Project/learn/ESP32_IDF/u8g2Demo/build/bootloader",
+    "config_file":        "F:/Studio/Project/learn/ESP32_IDF/u8g2Demo/sdkconfig",
     "config_defaults":    "",
     "app_elf":            "bootloader.elf",
     "app_bin":            "bootloader.bin",

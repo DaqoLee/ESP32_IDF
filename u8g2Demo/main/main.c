@@ -31,7 +31,7 @@
 #include "u8g2.h"
 #include "u8x8.h"
 
-static const char *TAG = "tofsense";
+static const char *TAG = "u8g2Demo";
 
 void app_main(void)
 {
