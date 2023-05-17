@@ -109,20 +109,22 @@ extern "C" void app_main(void)
    // input_task_create();
 
     DendoStepper_config_t step1_cfg = {
-        .stepPin = 18,
-        .dirPin = 19,
-        .enPin = 20,
+        .stepPin = 27,
+        .dirPin = 26,
+        .enPin = 25,
+        .ms1Pin = 14,
+        .ms2Pin = 12,
         .timer_group = TIMER_GROUP_0,
         .timer_idx = TIMER_1,
         .miStep = MICROSTEP_32,
-        .stepAngle = 1.8};
+        .stepAngle = 0.35};
 
 
     step1.config(&step1_cfg);
 
 
     step1.init();
-
+ 
     step1.setSpeed(5000, 1000, 1000);
 
     step1.runPos(400000);

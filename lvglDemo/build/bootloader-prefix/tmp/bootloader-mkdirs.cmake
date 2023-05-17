@@ -5,15 +5,15 @@ cmake_minimum_required(VERSION 3.5)
 
 file(MAKE_DIRECTORY
   "D:/Espressif/frameworks/esp-idf-v4.4.4/components/bootloader/subproject"
-  "F:/Studio/Project/learn/ESP32_IDF/lvglDemo/build/bootloader"
-  "F:/Studio/Project/learn/ESP32_IDF/lvglDemo/build/bootloader-prefix"
-  "F:/Studio/Project/learn/ESP32_IDF/lvglDemo/build/bootloader-prefix/tmp"
-  "F:/Studio/Project/learn/ESP32_IDF/lvglDemo/build/bootloader-prefix/src/bootloader-stamp"
-  "F:/Studio/Project/learn/ESP32_IDF/lvglDemo/build/bootloader-prefix/src"
-  "F:/Studio/Project/learn/ESP32_IDF/lvglDemo/build/bootloader-prefix/src/bootloader-stamp"
+  "D:/ESP32/learn/ESP32_IDF/lvglDemo/build/bootloader"
+  "D:/ESP32/learn/ESP32_IDF/lvglDemo/build/bootloader-prefix"
+  "D:/ESP32/learn/ESP32_IDF/lvglDemo/build/bootloader-prefix/tmp"
+  "D:/ESP32/learn/ESP32_IDF/lvglDemo/build/bootloader-prefix/src/bootloader-stamp"
+  "D:/ESP32/learn/ESP32_IDF/lvglDemo/build/bootloader-prefix/src"
+  "D:/ESP32/learn/ESP32_IDF/lvglDemo/build/bootloader-prefix/src/bootloader-stamp"
 )
 
 set(configSubDirs )
 foreach(subDir IN LISTS configSubDirs)
-    file(MAKE_DIRECTORY "F:/Studio/Project/learn/ESP32_IDF/lvglDemo/build/bootloader-prefix/src/bootloader-stamp/${subDir}")
+    file(MAKE_DIRECTORY "D:/ESP32/learn/ESP32_IDF/lvglDemo/build/bootloader-prefix/src/bootloader-stamp/${subDir}")
 endforeach()

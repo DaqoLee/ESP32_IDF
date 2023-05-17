@@ -72,6 +72,8 @@ typedef struct
     uint8_t stepPin;           /** step signal pin */
     uint8_t dirPin;            /** dir signal pin */
     uint8_t enPin;             /** enable signal pin */
+    uint8_t ms1Pin;            /** ms1 signal pin */
+    uint8_t ms2Pin;             /** ms2 signal pin */
     timer_group_t timer_group; /** timer group, useful if we are controlling more than 2 steppers */
     timer_idx_t timer_idx;     /** timer index, useful if we are controlling 2steppers */
     microStepping_t miStep;    /** microstepping configured on driver - used in distance calculation */
@@ -94,6 +96,7 @@ typedef struct
     float dec = 100;        // decceleration in rad*second^-2
     uint32_t accSteps = 0;
     uint32_t decSteps = 0;
+    uint8_t Resolution = 8;
     uint8_t status = DISABLED;
     bool dir = CW;
     bool runInfinite = false;
@@ -128,6 +131,12 @@ private:
      *  @param state 0-CW 1-CCW
      */
     void setDir(bool);
+
+    
+    /** @brief sets Microstep resolution
+     *  @param value 8 16 32 64
+     */
+    void setResolution(uint8_t value);
 
     /** @brief static wrapper for ISR function
      *  @param _this DendoStepper* this pointer

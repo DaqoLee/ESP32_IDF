@@ -39,7 +39,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("F:/Studio/Project/learn/ESP32_IDF/lvglDemo/build/bootloader/esp-idf/cmake_install.cmake")
+  include("D:/ESP32/learn/ESP32_IDF/lvglDemo/build/bootloader/esp-idf/cmake_install.cmake")
 
 endif()
 
@@ -51,5 +51,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "F:/Studio/Project/learn/ESP32_IDF/lvglDemo/build/bootloader/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "D:/ESP32/learn/ESP32_IDF/lvglDemo/build/bootloader/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

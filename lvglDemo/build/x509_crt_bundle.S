@@ -1,4 +1,4 @@
-/* * Data converted from F:/Studio/Project/learn/ESP32_IDF/lvglDemo/build/esp-idf/mbedtls/x509_crt_bundle
+/* * Data converted from D:/ESP32/learn/ESP32_IDF/lvglDemo/build/esp-idf/mbedtls/x509_crt_bundle
  */
 .data
 .section .rodata.embedded

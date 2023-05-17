@@ -78,7 +78,7 @@ void DendoStepper::init()
 
     // calculate stepsPerRot
     ctrl.stepsPerRot = (360.0 / conf.stepAngle) * conf.miStep;
-
+    setResolution(16);//Microstep resolution 16
     STEP_LOGI("DendoStepper", "Steps per one rotation:%d", ctrl.stepsPerRot);
 
     if (conf.timer_group != TIMER_GROUP_MAX && conf.timer_idx != TIMER_MAX)
@@ -277,6 +277,36 @@ void DendoStepper::setDir(bool state)
 {
     ctrl.dir = state;
     ESP_ERROR_CHECK(gpio_set_level((gpio_num_t)conf.dirPin, state));
+}
+
+void DendoStepper::setResolution(uint8_t value)
+{
+    ctrl.Resolution = value;
+
+    switch (value)
+    {
+    case 8:
+        ESP_ERROR_CHECK(gpio_set_level((gpio_num_t)conf.ms1Pin, 0));
+        ESP_ERROR_CHECK(gpio_set_level((gpio_num_t)conf.ms2Pin, 0));
+        break;
+    case 16:
+        ESP_ERROR_CHECK(gpio_set_level((gpio_num_t)conf.ms1Pin, 1));
+        ESP_ERROR_CHECK(gpio_set_level((gpio_num_t)conf.ms2Pin, 1));
+        break;
+    case 32:
+        ESP_ERROR_CHECK(gpio_set_level((gpio_num_t)conf.ms1Pin, 1));
+        ESP_ERROR_CHECK(gpio_set_level((gpio_num_t)conf.ms2Pin, 0));
+        break;
+    case 64:
+        ESP_ERROR_CHECK(gpio_set_level((gpio_num_t)conf.ms1Pin, 0));
+        ESP_ERROR_CHECK(gpio_set_level((gpio_num_t)conf.ms2Pin, 1));
+        break;    
+    default:
+        ESP_ERROR_CHECK(gpio_set_level((gpio_num_t)conf.ms1Pin, 0));
+        ESP_ERROR_CHECK(gpio_set_level((gpio_num_t)conf.ms2Pin, 0));
+        break;
+    }
+    
 }
 
 /* Timer callback, used for generating pulses and calculating speed profile in real time */

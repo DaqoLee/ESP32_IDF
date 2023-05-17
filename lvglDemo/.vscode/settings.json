@@ -4,5 +4,24 @@
   "idf.openOcdConfigs": [
     "board/esp32-wrover-kit-3.3v.cfg"
   ],
-  "idf.portWin": "COM6"
+
+  "files.associations": {
+    "*.cps": "javascript",
+    "*.tcc": "cpp",
+    "string": "cpp",
+    "system_error": "cpp",
+    "*.h": "c",
+    "optional": "cpp",
+    "istream": "cpp",
+    "ostream": "cpp",
+    "ratio": "cpp",
+    "array": "cpp",
+    "functional": "cpp",
+    "regex": "cpp",
+    "tuple": "cpp",
+    "type_traits": "cpp",
+    "utility": "cpp"
+  },
+  "idf.portWin": "COM6",
+  "idf.flashType": "UART"
 }

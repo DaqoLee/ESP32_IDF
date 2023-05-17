@@ -1,4 +1,4 @@
-# Install script for directory: F:/Studio/Project/learn/ESP32_IDF/lvglDemo/components/lvgl_porting
+# Install script for directory: D:/ESP32/learn/ESP32_IDF/lvglDemo/components/lvgl_porting
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

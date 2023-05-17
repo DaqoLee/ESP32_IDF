@@ -2,34 +2,34 @@
 	"sources" : 
 	[
 		{
-			"file" : "F:/Studio/Project/learn/ESP32_IDF/lvglDemo/build/CMakeFiles/bootloader"
+			"file" : "D:/ESP32/learn/ESP32_IDF/lvglDemo/build/CMakeFiles/bootloader"
 		},
 		{
-			"file" : "F:/Studio/Project/learn/ESP32_IDF/lvglDemo/build/CMakeFiles/bootloader.rule"
+			"file" : "D:/ESP32/learn/ESP32_IDF/lvglDemo/build/CMakeFiles/bootloader.rule"
 		},
 		{
-			"file" : "F:/Studio/Project/learn/ESP32_IDF/lvglDemo/build/CMakeFiles/bootloader-complete.rule"
+			"file" : "D:/ESP32/learn/ESP32_IDF/lvglDemo/build/CMakeFiles/bootloader-complete.rule"
 		},
 		{
-			"file" : "F:/Studio/Project/learn/ESP32_IDF/lvglDemo/build/bootloader-prefix/src/bootloader-stamp/bootloader-build.rule"
+			"file" : "D:/ESP32/learn/ESP32_IDF/lvglDemo/build/bootloader-prefix/src/bootloader-stamp/bootloader-build.rule"
 		},
 		{
-			"file" : "F:/Studio/Project/learn/ESP32_IDF/lvglDemo/build/bootloader-prefix/src/bootloader-stamp/bootloader-configure.rule"
+			"file" : "D:/ESP32/learn/ESP32_IDF/lvglDemo/build/bootloader-prefix/src/bootloader-stamp/bootloader-configure.rule"
 		},
 		{
-			"file" : "F:/Studio/Project/learn/ESP32_IDF/lvglDemo/build/bootloader-prefix/src/bootloader-stamp/bootloader-download.rule"
+			"file" : "D:/ESP32/learn/ESP32_IDF/lvglDemo/build/bootloader-prefix/src/bootloader-stamp/bootloader-download.rule"
 		},
 		{
-			"file" : "F:/Studio/Project/learn/ESP32_IDF/lvglDemo/build/bootloader-prefix/src/bootloader-stamp/bootloader-install.rule"
+			"file" : "D:/ESP32/learn/ESP32_IDF/lvglDemo/build/bootloader-prefix/src/bootloader-stamp/bootloader-install.rule"
 		},
 		{
-			"file" : "F:/Studio/Project/learn/ESP32_IDF/lvglDemo/build/bootloader-prefix/src/bootloader-stamp/bootloader-mkdir.rule"
+			"file" : "D:/ESP32/learn/ESP32_IDF/lvglDemo/build/bootloader-prefix/src/bootloader-stamp/bootloader-mkdir.rule"
 		},
 		{
-			"file" : "F:/Studio/Project/learn/ESP32_IDF/lvglDemo/build/bootloader-prefix/src/bootloader-stamp/bootloader-patch.rule"
+			"file" : "D:/ESP32/learn/ESP32_IDF/lvglDemo/build/bootloader-prefix/src/bootloader-stamp/bootloader-patch.rule"
 		},
 		{
-			"file" : "F:/Studio/Project/learn/ESP32_IDF/lvglDemo/build/bootloader-prefix/src/bootloader-stamp/bootloader-update.rule"
+			"file" : "D:/ESP32/learn/ESP32_IDF/lvglDemo/build/bootloader-prefix/src/bootloader-stamp/bootloader-update.rule"
 		}
 	],
 	"target" : 
